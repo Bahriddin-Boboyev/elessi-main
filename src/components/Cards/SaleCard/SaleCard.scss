@@ -1,0 +1,52 @@
+.sale-card-miniblock {
+  padding: 10px;
+  border: 1px solid #6BAD0D;
+  position: relative;
+  border-radius: 5px;
+  display: flex;
+  cursor: grab;
+  gap: 20px;
+  .sale-card-miniblock-title{
+    cursor: pointer;
+    &:hover{
+      color: #7AB526;
+    }
+  }
+}
+.botm-el{
+  border: transparent;
+  z-index: 1;
+  cursor: auto;
+  .sale-card-miniblock-sale {
+    color: #000;
+  }
+  .sale-card-miniblock-title{
+    cursor: pointer;
+    &:hover{
+      color: #7AB526;
+    }
+  }
+}
+.sale-card-miniblock-img {
+  max-width: 71px;
+}
+.sale-card-miniblock-title {
+  line-height: 1.2;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 16.675px;
+  display: block;
+  color: #333;
+}
+.sale-card-miniblock-price {
+  color: #aaa;
+  text-decoration: line-through;
+}
+.sale-card-miniblock-sale {
+  color: red;
+}
+.sale-card-miniblock-prises {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

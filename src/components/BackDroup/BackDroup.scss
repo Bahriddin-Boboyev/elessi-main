@@ -1,0 +1,13 @@
+.back-doup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  right: 0;
+  height: 100vh;
+  background-color: #0000005e;
+  transition: all .5s ease;
+  z-index: 40;
+  cursor: pointer;
+}

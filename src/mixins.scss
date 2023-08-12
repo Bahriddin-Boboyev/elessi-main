@@ -1,0 +1,59 @@
+@mixin flexB {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin flex {
+  display: flex;
+  align-items: center;
+}
+@mixin flexC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin bigTitle {
+  color: #333;
+  font-size: 30.5px;
+  font-weight: 800;
+  line-height: 1.428;
+}
+@mixin middleTitle {
+  line-height: 1.428;
+  color: #333;
+  font-weight: 700;
+  font-size: 17.4px;
+}
+
+@mixin regular {
+  font-size: 15.95px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000;
+  transition: all 0.4s ease;
+}
+@mixin hoverText {
+  &:hover {
+    color: #6bad0d;
+  }
+}
+@mixin respon($screen-md-min) {
+  @media (max-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+@mixin sliderArrow {
+  transition: all 0.4s ease;
+  color: black;
+  &:hover {
+    color: #7ab526;
+  }
+}
+@mixin slierArrowRespon {
+  width: 30px;
+  height: 30px;
+  padding: 6px;
+  border-radius: 50%;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.13);
+  background-color: #fff;
+}
